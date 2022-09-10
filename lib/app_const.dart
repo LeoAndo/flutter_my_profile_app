@@ -1,9 +1,11 @@
+import 'package:flutter/material.dart';
+
 import 'info.dart';
 
 final List<Info> schoolWorkList = [
   const Info(
-      title: "2022年　担当科目",
-      content: """
+    title: "2022年　担当科目",
+    content: """
 ・Java プログラミング
 ・Web基礎
 ・Android Java / Kotlin プログラミング
@@ -14,36 +16,44 @@ final List<Info> schoolWorkList = [
 ・.NET MAUIテキストの新規作成
 ・卒業制作 (Android /iOS)
 """,
-      kikan: "2022/04/01 - 2023/02/28",
-      position: "メイン・サブ講師"),
+    kikan: "2022/04/01 - 2023/02/28",
+    position: "メイン・サブ講師",
+    icon: Icons.flutter_dash_outlined,
+  ),
   const Info(
-      title: "2021年　担当科目",
-      content: """
+    title: "2021年　担当科目",
+    content: """
 ・Java プログラミング
 ・Android Java プログラミング
 ・ハイブリッドアプリ開発技法 (Xamarin, Monaca Unity)
 """,
-      kikan: "2021/04/01 - 2022/02/28",
-      position: "メイン・サブ講師"),
+    kikan: "2021/04/01 - 2022/02/28",
+    position: "メイン・サブ講師",
+    icon: Icons.android_outlined,
+  ),
   const Info(
-      title: "2020年　担当科目",
-      content: """
+    title: "2020年　担当科目",
+    content: """
 ・Android Java プログラミング
 ・卒業制作 (Android / iOS)
 """,
-      kikan: "2020/10/01 - 2021/02/28",
-      position: "サブ講師"),
+    kikan: "2020/10/01 - 2021/02/28",
+    position: "サブ講師",
+    icon: Icons.android_outlined,
+  ),
 ];
 
 final List<Info> devList = [
   const Info(
-      title: "Android Auto / CarPlay技術調査",
-      content: "Android Auto / CarPlayで出来ることの技術調査",
-      kikan: "2022/4/1 - 2022/07/31",
-      position: "技術リサーチ 1名体制"),
+    title: "Android Auto / CarPlay技術調査",
+    content: "Android Auto / CarPlayで出来ることの技術調査",
+    kikan: "2022/4/1 - 2022/07/31",
+    position: "技術リサーチ 1名体制",
+    icon: Icons.apple_outlined,
+  ),
   const Info(
-      title: "Android 理容室向け予約事前決済アプリ開発【サードパーティ】【受託】【新規開発】",
-      content: """
+    title: "Android 理容室向け予約事前決済アプリ開発【サードパーティ】【受託】【新規開発】",
+    content: """
 対応バージョン
 6.0～
 
@@ -70,11 +80,13 @@ final List<Info> devList = [
 使用ライブラリ
 OkHttp, Retrofit, Gson, Dagger2, Picasso, RxJava, KvsSchema, AndroidX, Groupie, PermissionDispatcher, Timber, material
 """,
-      kikan: "2020/1/20 - 2020/11/30",
-      position: "メインプログラマ 1名体制"),
+    kikan: "2020/1/20 - 2020/11/30",
+    position: "メインプログラマ 1名体制",
+    icon: Icons.android_outlined,
+  ),
   const Info(
-      title: "Android マンガアプリ開発【サードパーティ】【自社サービス】【保守】",
-      content: """
+    title: "Android マンガアプリ開発【サードパーティ】【自社サービス】【保守】",
+    content: """
 対応バージョン
 5.0～
 
@@ -97,11 +109,13 @@ OkHttp, Retrofit, Gson, Dagger2, Picasso, RxJava, KvsSchema, AndroidX, Groupie, 
 使用ライブラリ
 Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxKotlin, KvsSchema, AndroidX, Groupie, Timber
 """,
-      kikan: "2019/06/01 - 2019/12/31",
-      position: "開発メンバー ２名体制"),
+    kikan: "2019/06/01 - 2019/12/31",
+    position: "開発メンバー ２名体制",
+    icon: Icons.android_outlined,
+  ),
   const Info(
-      title: "Android グルメアプリ開発【サードパーティ】【自社サービス】【保守】",
-      content: """
+    title: "Android グルメアプリ開発【サードパーティ】【自社サービス】【保守】",
+    content: """
 対応バージョン
 4.4～
 
@@ -123,11 +137,13 @@ Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxK
 使用ライブラリ
 AndroidX, play-services-places, google-maps-services(DirectionsAPI), retrofit2, okhttp3, rxjava2, rxkotlin, dagger, permissionsdispatcher, Glide
 """,
-      kikan: "2018/07/01 - 2019/05/31",
-      position: "メインプログラマ 3名体制"),
+    kikan: "2018/07/01 - 2019/05/31",
+    position: "メインプログラマ 3名体制",
+    icon: Icons.android_outlined,
+  ),
   const Info(
-      title: "AndroidTV RS-232Cアプリ開発【プリイン】【自社サービス】【保守】",
-      content: """
+    title: "AndroidTV RS-232Cアプリ開発【プリイン】【自社サービス】【保守】",
+    content: """
 対応バージョン
 OS: 7.0、8.0 、9.0(３プロジェクトに向けてリリース)
 
@@ -148,11 +164,13 @@ OS: 7.0、8.0 、9.0(３プロジェクトに向けてリリース)
 使用ライブラリ
 SupportLibrary (AndroidX未使用)
 """,
-      kikan: "2017/06/01 - 2018/06/30",
-      position: "メインプログラマ　１名体制"),
+    kikan: "2017/06/01 - 2018/06/30",
+    position: "メインプログラマ　１名体制",
+    icon: Icons.tv_outlined,
+  ),
   const Info(
-      title: "Android 物流ドライバ向けアプリのFW開発【サードパーティ】【自社サービス】",
-      content: """
+    title: "Android 物流ドライバ向けアプリのFW開発【サードパーティ】【自社サービス】",
+    content: """
 対応バージョン
 4.x〜
 
@@ -169,22 +187,26 @@ SupportLibrary (AndroidX未使用)
 使用ライブラリ
  RxJava, rxAndroid, rxLifecycle, rxpermissions, dagger, dbflow, butterknife, fragmentargs, dagger, retrofit2, okhttp3, timber
 """,
-      kikan: "2016/06/01 - 2017/05/31",
-      position: "開発メンバ　２名体制"),
+    kikan: "2016/06/01 - 2017/05/31",
+    position: "開発メンバ　２名体制",
+    icon: Icons.android_outlined,
+  ),
   const Info(
-      title: "金融システム開発",
-      content: """
+    title: "金融システム開発",
+    content: """
 開発手法
 ・ウォーターフォール開発
 
 担当業務
 ・メインは、ActionScriptを使用したクライアント側のUI実装
 """,
-      kikan: "2016/01/01 - 2016/05/31",
-      position: "開発メンバ　４名体制"),
+    kikan: "2016/01/01 - 2016/05/31",
+    position: "開発メンバ　４名体制",
+    icon: Icons.money,
+  ),
   const Info(
-      title: "Android, iOS ソーシャルアプリ開発【サードパーティ】【自社サービス】【ガワネイティブ】",
-      content: """
+    title: "Android, iOS ソーシャルアプリ開発【サードパーティ】【自社サービス】【ガワネイティブ】",
+    content: """
 対応バージョン
 2.3～
 
@@ -203,11 +225,13 @@ SupportLibrary (AndroidX未使用)
   ・Web フロント: 不具合調査
   ・Android: 技術調査として、Jquery & leaflet を使用した地図表示ありのリストを作成
 """,
-      kikan: "2014/01/01 - 2015/12/31",
-      position: "メインプログラマ　２名体制"),
+    kikan: "2014/01/01 - 2015/12/31",
+    position: "メインプログラマ　２名体制",
+    icon: Icons.apple,
+  ),
   const Info(
-      title: "Android スマートフォンの組み込み開発【プリイン】",
-      content: """
+    title: "Android スマートフォンの組み込み開発【プリイン】",
+    content: """
 対応バージョン
 4.0〜4.3
 
@@ -221,11 +245,13 @@ SupportLibrary (AndroidX未使用)
 ・framework層の不具合解析、改修、単体試験、結合試験
 ・設定アプリ内のUI開発
 """,
-      kikan: "2012/12/01 - 2013/10/31",
-      position: "開発メンバ　５名体制"),
+    kikan: "2012/12/01 - 2013/10/31",
+    position: "開発メンバ　５名体制",
+    icon: Icons.smartphone_outlined,
+  ),
   const Info(
-      title: "Android FXアプリ開発【サードパーティ】【自社サービス】【新規開発/保守】",
-      content: """
+    title: "Android FXアプリ開発【サードパーティ】【自社サービス】【新規開発/保守】",
+    content: """
 対応バージョン
 2.2～
 
@@ -240,6 +266,8 @@ SupportLibrary (AndroidX未使用)
 ・新規プロジェクトのListViewを使った照会画面の実装
 ・Proguardについての調査
 """,
-      kikan: "2011/10/01 - 2012/12/31",
-      position: "開発メンバ　３名体制"),
+    kikan: "2011/10/01 - 2012/12/31",
+    position: "開発メンバ　３名体制",
+    icon: Icons.android_outlined,
+  ),
 ];
