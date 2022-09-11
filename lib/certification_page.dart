@@ -15,15 +15,18 @@ class _CertificationPageState extends State<CertificationPage> {
         title: const Text("保有資格"),
         leading: const BackButton(),
       ),
-      body: Center(
+      body: SingleChildScrollView(
+          child: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: const [
             Card(
               elevation: 8,
               child: Padding(
                 padding: EdgeInsets.all(40),
-                child: Text("1. PHP7技術者認定初級(令和１年取得)"),
+                child: Text(
+                  "1. PHP7技術者認定初級(令和１年取得)",
+                  textAlign: TextAlign.center,
+                ),
               ),
             ),
             Card(
@@ -42,7 +45,7 @@ class _CertificationPageState extends State<CertificationPage> {
             ),
           ],
         ),
-      ),
+      )),
     );
   }
 }
