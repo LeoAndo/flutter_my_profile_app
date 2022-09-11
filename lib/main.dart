@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_catalog_app/certification_page.dart';
+import 'package:flutter_ui_catalog_app/portphorio_page.dart';
 
 import 'app_const.dart';
 import 'demo1.dart';
@@ -32,17 +34,16 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(title)),
-      body: const Center(
-        child: Text("Welcom My Home Page."),
-      ),
+      body: const Center(child: Text("Home Page")),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
             const DrawerHeader(
-              child: Text('Welcome My Profile App.'),
+              child: Text('Welcome to My Profile App'),
             ),
             ListTile(
+                style: ListTileStyle.drawer,
                 leading: const Icon(Icons.developer_mode_outlined),
                 iconColor: Colors.deepPurpleAccent,
                 title: const Text("経歴書(開発)"),
@@ -55,6 +56,7 @@ class MyHomePage extends StatelessWidget {
                               )));
                 }),
             ListTile(
+                style: ListTileStyle.drawer,
                 leading: const Icon(Icons.school_outlined),
                 iconColor: Colors.deepOrange,
                 title: const Text("経歴書(学校)"),
@@ -63,6 +65,28 @@ class MyHomePage extends StatelessWidget {
                       context,
                       MaterialPageRoute<void>(
                           builder: (_) => Demo1(infoList: schoolWorkList)));
+                }),
+            ListTile(
+                style: ListTileStyle.drawer,
+                leading: const Icon(Icons.computer_outlined),
+                iconColor: Colors.pinkAccent,
+                title: const Text("ポートフォリオ"),
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                          builder: (_) => const PortphorioPage()));
+                }),
+            ListTile(
+                style: ListTileStyle.drawer,
+                leading: const Icon(Icons.add_business),
+                iconColor: Colors.cyanAccent,
+                title: const Text("保有資格"),
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                          builder: (_) => const CertificationPage()));
                 }),
           ],
         ),

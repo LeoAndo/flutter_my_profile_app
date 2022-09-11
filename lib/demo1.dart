@@ -11,7 +11,7 @@ class Demo1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Memo Page"),
+        title: const Text("経歴"),
         leading: const BackButton(),
       ),
       body: Padding(

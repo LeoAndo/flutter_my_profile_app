@@ -1,6 +1,57 @@
 import 'package:flutter/material.dart';
 
 import 'info.dart';
+import 'repository.dart';
+
+final List<Repository> portphorioAndroidList = [
+  const Repository(
+      title: "Jetpack Composeを使ったテンプレート",
+      description: "Material 3使用(一部 M2)",
+      url: "https://github.com/LeoAndo/android-compose-templates",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "シンプルなプロジェクト",
+      description: "学校の授業で使うJava/Kotlin用テンプレート",
+      url: "https://github.com/LeoAndo/android-app-teaching-material-templates",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "マルチモジュール用のテンプレート",
+      description: "マルチモジュールを使ったKotlinプロジェクト",
+      url: "https://github.com/LeoAndo/AndroidAppTemplate",
+      icon: Icons.android_outlined),
+];
+
+final List<Repository> portphorioFlutterList = [
+  const Repository(
+      title: "Flutter シンプルなプロジェクト",
+      description: "RiverpodなどのPlugin使用",
+      url: "https://github.com/LeoAndo/flutter-app-templates",
+      icon: Icons.flutter_dash_outlined),
+];
+
+final List<Repository> portphorioiOSList = [
+  const Repository(
+      title: "SwiftUIを使ったテンプレート",
+      description: "非同期処理は async await利用",
+      url: "https://github.com/LeoAndo/ios-app-templates",
+      icon: Icons.apple_outlined),
+];
+
+final List<Repository> portphorioXamarinList = [
+  const Repository(
+      title: "Xamarin シンプルなサンプルアプリ集",
+      description: "アニメーションやPageViewを使ったサンプル集",
+      url: "https://github.com/LeoAndo/xamarin-forms-app-templates",
+      icon: Icons.laptop_windows_outlined),
+];
+
+final List<Repository> portphorioMonacaList = [
+  const Repository(
+      title: "Monaca OnsenUIを使ったテンプレート",
+      description: "タブありページのシンプルな構成",
+      url: "https://github.com/LeoAndo/OnsenUITemplate",
+      icon: Icons.web_outlined),
+];
 
 final List<Info> schoolWorkList = [
   const Info(
