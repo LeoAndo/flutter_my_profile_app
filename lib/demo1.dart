@@ -34,8 +34,8 @@ class Demo1 extends StatelessWidget {
                                 },
                             child: ListTile(
                               leading: Icon(item.icon),
-                              title: Text("業務内容：${item.title}"),
-                              subtitle: Text("期間：${item.kikan}"),
+                              title: Text(item.title),
+                              subtitle: Text(item.kikan),
                               contentPadding: const EdgeInsets.all(8),
                             )),
                       );

@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-class CertificationPage extends StatefulWidget {
-  const CertificationPage({super.key});
+class CertificationPage extends StatelessWidget {
+  CertificationPage({super.key});
 
-  @override
-  State<CertificationPage> createState() => _CertificationPageState();
-}
+  final List<String> infoList = [
+    "PHP7技術者認定初級(令和１年取得)",
+    "Python3 エンジニア認定基礎(令和１年取得)",
+    "洋裁検定3級(平成18年取得)"
+  ];
 
-class _CertificationPageState extends State<CertificationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,37 +16,25 @@ class _CertificationPageState extends State<CertificationPage> {
         title: const Text("保有資格"),
         leading: const BackButton(),
       ),
-      body: SingleChildScrollView(
-          child: Center(
+      body: Padding(
+        padding: const EdgeInsets.fromLTRB(8, 16, 8, 16),
         child: Column(
-          children: const [
-            Card(
-              elevation: 8,
-              child: Padding(
-                padding: EdgeInsets.all(40),
-                child: Text(
-                  "1. PHP7技術者認定初級(令和１年取得)",
-                  textAlign: TextAlign.center,
-                ),
-              ),
-            ),
-            Card(
-              elevation: 8,
-              child: Padding(
-                padding: EdgeInsets.all(40),
-                child: Text("2. Python3 エンジニア認定基礎(令和１年取得)"),
-              ),
-            ),
-            Card(
-              elevation: 8,
-              child: Padding(
-                padding: EdgeInsets.all(40),
-                child: Text("3. 洋裁検定3級(平成18年取得)"),
-              ),
-            ),
+          children: <Widget>[
+            Expanded(
+                child: ListView.builder(
+                    itemCount: infoList.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      final item = infoList[index];
+                      return Card(
+                        child: ListTile(
+                          title: Text(item),
+                          contentPadding: const EdgeInsets.all(8),
+                        ),
+                      );
+                    })),
           ],
         ),
-      )),
+      ),
     );
   }
 }

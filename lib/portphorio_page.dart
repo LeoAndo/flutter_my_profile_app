@@ -41,7 +41,7 @@ class _PortphorioPageState extends State<PortphorioPage> {
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(8, 16, 8, 16),
-        child: _buildGridView(portphorioAndroidList +
+        child: _buildListView(portphorioAndroidList +
             portphorioFlutterList +
             portphorioiOSList +
             portphorioXamarinList +
@@ -65,12 +65,10 @@ class _PortphorioPageState extends State<PortphorioPage> {
     );
   }
 
-  Widget _buildGridView(List<Repository> items) {
-    return GridView.builder(
+  Widget _buildListView(List<Repository> items) {
+    return ListView.builder(
         controller: _scrollController,
         itemCount: items.length,
-        gridDelegate:
-            const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
         itemBuilder: (context, index) {
           final item = items[index];
           final Uri toLaunch = Uri.tryParse(item.url, 0, item.url.length) ??
