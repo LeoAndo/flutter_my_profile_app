@@ -20,34 +20,30 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.redAccent,
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'My Profile App'),
+      home: const MyHomePage(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key, required this.title});
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
 
-  final String title;
-
+class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
-      body: const Center(child: Text("Home Page")),
-      drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
+        appBar: AppBar(title: const Text("My Profile App")),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const DrawerHeader(
-              child: Text('Welcome to My Profile App'),
-            ),
-            ListTile(
-                style: ListTileStyle.drawer,
-                leading: const Icon(Icons.developer_mode_outlined),
-                iconColor: Colors.deepPurpleAccent,
-                title: const Text("経歴書(開発)"),
-                onTap: () {
+            ElevatedButton.icon(
+                icon: const Icon(Icons.developer_mode_outlined),
+                label: const Text("経歴書(開発)"),
+                onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute<void>(
@@ -55,42 +51,34 @@ class MyHomePage extends StatelessWidget {
                                 infoList: devList,
                               )));
                 }),
-            ListTile(
-                style: ListTileStyle.drawer,
-                leading: const Icon(Icons.school_outlined),
-                iconColor: Colors.deepOrange,
-                title: const Text("経歴書(学校)"),
-                onTap: () {
+            ElevatedButton.icon(
+                icon: const Icon(Icons.school_outlined),
+                label: const Text("経歴書(学校)"),
+                onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute<void>(
                           builder: (_) => Demo1(infoList: schoolWorkList)));
                 }),
-            ListTile(
-                style: ListTileStyle.drawer,
-                leading: const Icon(Icons.computer_outlined),
-                iconColor: Colors.pinkAccent,
-                title: const Text("ポートフォリオ"),
-                onTap: () {
+            ElevatedButton.icon(
+                icon: const Icon(Icons.computer_outlined),
+                label: const Text("ポートフォリオ"),
+                onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute<void>(
                           builder: (_) => const PortphorioPage()));
                 }),
-            ListTile(
-                style: ListTileStyle.drawer,
-                leading: const Icon(Icons.add_business),
-                iconColor: Colors.cyanAccent,
-                title: const Text("保有資格"),
-                onTap: () {
+            ElevatedButton.icon(
+                icon: const Icon(Icons.add_business),
+                label: const Text("保有資格"),
+                onPressed: () {
                   Navigator.push(
                       context,
                       MaterialPageRoute<void>(
                           builder: (_) => CertificationPage()));
                 }),
           ],
-        ),
-      ),
-    );
+        ));
   }
 }

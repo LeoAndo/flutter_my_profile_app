@@ -37,7 +37,6 @@ class _PortphorioPageState extends State<PortphorioPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("ポートフォリオ"),
-        leading: const BackButton(),
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(8, 16, 8, 16),
