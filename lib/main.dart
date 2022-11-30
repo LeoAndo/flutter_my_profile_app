@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 }),
             ElevatedButton.icon(
                 icon: const Icon(Icons.school_outlined),
-                label: const Text("経歴書(学校)"),
+                label: const Text("経歴書(講師)"),
                 onPressed: () {
                   Navigator.push(
                       context,
