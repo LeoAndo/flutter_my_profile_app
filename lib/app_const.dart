@@ -5,6 +5,11 @@ import 'repository.dart';
 
 final List<Repository> portphorioAndroidList = [
   const Repository(
+      title: "Native Androidで作るGithub検索アプリ",
+      description: "100% Compose",
+      url: "https://github.com/LeoAndo/AndroidGithubSearch",
+      icon: Icons.android_outlined),
+  const Repository(
       title: "Jetpack Composeを使ったテンプレート",
       description: "Material 3使用(一部 M2)",
       url: "https://github.com/LeoAndo/android-compose-templates",
@@ -96,6 +101,29 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
+    title: "Android ツール系アプリ開発【サードパーティ】【受託】【新規/保守開発】",
+    content: """
+対応バージョン
+6.0～
+
+開発手法
+・アジャイル開発
+
+アーキテクチャ
+・MVVM + Clean Architecture (マルチモジュール)
+
+担当業務
+・既存アプリの保守 / リファクタリング
+・新規プロジェクトの立ち上げ
+
+使用ライブラリ
+Ktor, kotlinx.serialization, Jetpack(appcompat, navigation-fragment-ktx)
+""",
+    kikan: "2023/01/05 - 継続中",
+    position: "Androidリードエンジニア 1名体制",
+    icon: Icons.android_outlined,
+  ),
+  const Info(
     title: "Android Auto / CarPlay技術調査",
     content: "Android Auto / CarPlayで出来ることの技術調査",
     kikan: "2022/4/1 - 2022/07/31",
@@ -132,7 +160,7 @@ final List<Info> devList = [
 OkHttp, Retrofit, Gson, Dagger2, Picasso, RxJava, KvsSchema, AndroidX, Groupie, PermissionDispatcher, Timber, material
 """,
     kikan: "2020/1/20 - 2020/11/30",
-    position: "メインプログラマ 1名体制",
+    position: "Androidリードエンジニア 1名体制",
     icon: Icons.android_outlined,
   ),
   const Info(
@@ -189,7 +217,7 @@ Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxK
 AndroidX, play-services-places, google-maps-services(DirectionsAPI), retrofit2, okhttp3, rxjava2, rxkotlin, dagger, permissionsdispatcher, Glide
 """,
     kikan: "2018/07/01 - 2019/05/31",
-    position: "メインプログラマ 3名体制",
+    position: "Androidリードエンジニア 3名体制",
     icon: Icons.android_outlined,
   ),
   const Info(
@@ -216,7 +244,7 @@ OS: 7.0、8.0 、9.0(３プロジェクトに向けてリリース)
 SupportLibrary (AndroidX未使用)
 """,
     kikan: "2017/06/01 - 2018/06/30",
-    position: "メインプログラマ　１名体制",
+    position: "Androidリードエンジニア １名体制",
     icon: Icons.tv_outlined,
   ),
   const Info(
@@ -277,7 +305,7 @@ SupportLibrary (AndroidX未使用)
   ・Android: 技術調査として、Jquery & leaflet を使用した地図表示ありのリストを作成
 """,
     kikan: "2014/01/01 - 2015/12/31",
-    position: "メインプログラマ　２名体制",
+    position: "Androidリードエンジニア ２名体制",
     icon: Icons.apple,
   ),
   const Info(
