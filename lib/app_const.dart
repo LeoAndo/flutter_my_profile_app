@@ -60,6 +60,15 @@ final List<Repository> portphorioMonacaList = [
 
 final List<Info> schoolWorkList = [
   const Info(
+    title: "2023年　担当科目",
+    content: """
+・未定
+""",
+    kikan: "2023/04/01 - 2024/03/31",
+    position: "メイン・サブ講師",
+    icon: Icons.flutter_dash_outlined,
+  ),
+  const Info(
     title: "2022年　担当科目",
     content: """
 ・Java プログラミング
@@ -72,7 +81,7 @@ final List<Info> schoolWorkList = [
 ・.NET MAUIテキストの新規作成
 ・卒業制作 (Android /iOS)
 """,
-    kikan: "2022/04/01 - 2023/02/28",
+    kikan: "2022/04/01 - 2023/03/31",
     position: "メイン・サブ講師",
     icon: Icons.flutter_dash_outlined,
   ),
@@ -83,7 +92,7 @@ final List<Info> schoolWorkList = [
 ・Android Java プログラミング
 ・ハイブリッドアプリ開発技法 (Xamarin, Monaca Unity)
 """,
-    kikan: "2021/04/01 - 2022/02/28",
+    kikan: "2021/04/01 - 2022/03/31",
     position: "メイン・サブ講師",
     icon: Icons.android_outlined,
   ),
@@ -93,7 +102,7 @@ final List<Info> schoolWorkList = [
 ・Android Java プログラミング
 ・卒業制作 (Android / iOS)
 """,
-    kikan: "2020/10/01 - 2021/02/28",
+    kikan: "2020/10/01 - 2021/03/31",
     position: "サブ講師",
     icon: Icons.android_outlined,
   ),
@@ -117,7 +126,7 @@ final List<Info> devList = [
 ・新規プロジェクトの立ち上げ
 
 使用ライブラリ
-Ktor, kotlinx.serialization, Jetpack(appcompat, navigation-fragment-ktx)
+Ktor, kotlinx.serialization, Jetpack(appcompat, navigation-fragment-ktx, dagger)
 """,
     kikan: "2023/01/05 - 継続中",
     position: "Androidリードエンジニア 1名体制",
@@ -157,7 +166,7 @@ Ktor, kotlinx.serialization, Jetpack(appcompat, navigation-fragment-ktx)
 ・アプリのリリース、Mapキーの作成
 
 使用ライブラリ
-OkHttp, Retrofit, Gson, Dagger2, Picasso, RxJava, KvsSchema, AndroidX, Groupie, PermissionDispatcher, Timber, material
+OkHttp, Retrofit, Gson, Dagger2, Picasso, AndroidX, Groupie, PermissionDispatcher, Timber, material
 """,
     kikan: "2020/1/20 - 2020/11/30",
     position: "Androidリードエンジニア 1名体制",
