@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'My Profile App',
       theme: ThemeData(
-        colorSchemeSeed: Colors.redAccent,
+        colorSchemeSeed: Colors.deepPurple,
         useMaterial3: true,
       ),
       home: const MyHomePage(),
