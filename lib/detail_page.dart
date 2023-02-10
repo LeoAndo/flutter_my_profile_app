@@ -8,6 +8,8 @@ class DetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final listTileTheme =
+        ListTileTheme.of(context).copyWith(tileColor: Colors.lightGreen);
     return Scaffold(
       appBar: AppBar(title: Text(info.title)),
       body: SingleChildScrollView(
@@ -20,7 +22,7 @@ class DetailPage extends StatelessWidget {
                   "担当業務",
                   textAlign: TextAlign.center,
                 ),
-                tileColor: Colors.deepPurpleAccent,
+                tileColor: Colors.cyanAccent,
               ),
               ListTile(
                 title: Text(
@@ -33,7 +35,7 @@ class DetailPage extends StatelessWidget {
                   "役割",
                   textAlign: TextAlign.center,
                 ),
-                tileColor: Colors.deepPurpleAccent,
+                tileColor: Colors.cyanAccent,
               ),
               ListTile(
                 title: Text(
@@ -46,7 +48,7 @@ class DetailPage extends StatelessWidget {
                   "期間",
                   textAlign: TextAlign.center,
                 ),
-                tileColor: Colors.deepPurpleAccent,
+                tileColor: Colors.cyanAccent,
               ),
               ListTile(
                 title: Text(
