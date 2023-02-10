@@ -20,7 +20,7 @@ class DetailPage extends StatelessWidget {
                   "担当業務",
                   textAlign: TextAlign.center,
                 ),
-                tileColor: Colors.greenAccent,
+                tileColor: Colors.deepPurpleAccent,
               ),
               ListTile(
                 title: Text(
@@ -33,7 +33,7 @@ class DetailPage extends StatelessWidget {
                   "役割",
                   textAlign: TextAlign.center,
                 ),
-                tileColor: Colors.greenAccent,
+                tileColor: Colors.deepPurpleAccent,
               ),
               ListTile(
                 title: Text(
@@ -46,7 +46,7 @@ class DetailPage extends StatelessWidget {
                   "期間",
                   textAlign: TextAlign.center,
                 ),
-                tileColor: Colors.greenAccent,
+                tileColor: Colors.deepPurpleAccent,
               ),
               ListTile(
                 title: Text(

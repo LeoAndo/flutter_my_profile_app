@@ -12,10 +12,7 @@ class CertificationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("保有資格"),
-        leading: const BackButton(),
-      ),
+      appBar: AppBar(title: const Text("保有資格")),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(8, 16, 8, 16),
         child: Column(
