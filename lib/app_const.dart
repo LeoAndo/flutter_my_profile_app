@@ -5,32 +5,22 @@ import 'repository.dart';
 
 final List<Repository> portphorioAndroidList = [
   const Repository(
-      title: "Native Androidで作るGithub検索アプリ",
-      description: "100% Compose",
+      title: "Native Android Composeで作るGithub検索アプリ",
+      description: "Compose / Multi module / M3",
       url: "https://github.com/LeoAndo/AndroidGithubSearch",
       icon: Icons.android_outlined),
   const Repository(
-      title: "Jetpack Composeを使ったテンプレート",
-      description: "Material 3使用(一部 M2)",
-      url: "https://github.com/LeoAndo/android-compose-templates",
-      icon: Icons.android_outlined),
-  const Repository(
-      title: "シンプルなプロジェクト",
-      description: "学校の授業で使うJava/Kotlin用テンプレート",
-      url: "https://github.com/LeoAndo/android-app-teaching-material-templates",
-      icon: Icons.android_outlined),
-  const Repository(
-      title: "マルチモジュール用のテンプレート",
-      description: "マルチモジュールを使ったKotlinプロジェクト",
-      url: "https://github.com/LeoAndo/AndroidAppTemplate",
+      title: "Native Android Viewで作るGithub検索アプリ",
+      description: "View / Single module / M3",
+      url: "https://github.com/LeoAndo/android-engineer-codecheck",
       icon: Icons.android_outlined),
 ];
 
 final List<Repository> portphorioFlutterList = [
   const Repository(
-      title: "Flutter シンプルなプロジェクト",
-      description: "RiverpodなどのPlugin使用",
-      url: "https://github.com/LeoAndo/flutter-app-templates",
+      title: "Flutterで作るGithub検索アプリ",
+      description: "Material 3導入",
+      url: "https://github.com/LeoAndo/flutter_github_search",
       icon: Icons.flutter_dash_outlined),
 ];
 
@@ -51,11 +41,11 @@ final List<Repository> portphorioXamarinList = [
 ];
 
 final List<Repository> portphorioMonacaList = [
-  const Repository(
-      title: "Monaca OnsenUIを使ったテンプレート",
-      description: "タブありページのシンプルな構成",
-      url: "https://github.com/LeoAndo/OnsenUITemplate",
-      icon: Icons.web_outlined),
+  // const Repository(
+  //     title: "Monaca OnsenUIを使ったテンプレート",
+  //     description: "タブありページのシンプルな構成",
+  //     url: "https://github.com/LeoAndo/OnsenUITemplate",
+  //     icon: Icons.web_outlined),
 ];
 
 final List<Info> schoolWorkList = [

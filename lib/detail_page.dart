@@ -8,8 +8,6 @@ class DetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final listTileTheme =
-        ListTileTheme.of(context).copyWith(tileColor: Colors.lightGreen);
     return Scaffold(
       appBar: AppBar(title: Text(info.title)),
       body: SingleChildScrollView(
