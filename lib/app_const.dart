@@ -34,6 +34,11 @@ final List<Repository> portphorioiOSList = [
 
 final List<Repository> portphorioXamarinList = [
   const Repository(
+      title: ".NET MAUIで作るGithub検索アプリ",
+      description: "ページング / Dark Theme対応",
+      url: "https://github.com/LeoAndo/MauiGithubSearch",
+      icon: Icons.laptop_windows_outlined),
+  const Repository(
       title: "Xamarin シンプルなサンプルアプリ集",
       description: "アニメーションやPageViewを使ったサンプル集",
       url: "https://github.com/LeoAndo/xamarin-forms-app-templates",
