@@ -105,26 +105,17 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
-    title: "Android ツール系アプリ開発【サードパーティ】【受託】【新規/保守開発】",
+    title: "モバイルアプリのアーキテクチャについての技術調査",
     content: """
-対応バージョン
-6.0～
-
-開発手法
-・アジャイル開発
-
-アーキテクチャ
-・MVVM + Clean Architecture (マルチモジュール)
-
-担当業務
-・既存アプリの保守 / リファクタリング
-・新規プロジェクトの立ち上げ
-
-使用ライブラリ
-Ktor, kotlinx.serialization, Jetpack(appcompat, navigation-fragment-ktx, dagger)
+・アーキテクチャやライブラリの選定を行い、以下の開発環境向けのテンプレートプロジェクトの作成
+・Native Android
+・Native iOS
+・Flutter
+・.NET MAUI
+・Kotlin Multiplatform Mobile
 """,
-    kikan: "2023/01/05 - 継続中",
-    position: "Androidリードエンジニア 1名体制",
+    kikan: "2022/08/01 - 継続中",
+    position: "技術リサーチ 1名体制",
     icon: Icons.android_outlined,
   ),
   const Info(
