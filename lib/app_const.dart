@@ -26,9 +26,9 @@ final List<Repository> portphorioFlutterList = [
 
 final List<Repository> portphorioiOSList = [
   const Repository(
-      title: "SwiftUIを使ったテンプレート",
-      description: "非同期処理は async await利用",
-      url: "https://github.com/LeoAndo/ios-app-templates",
+      title: "SwiftUIで作るGithub検索アプリ",
+      description: "ページング対応",
+      url: "https://github.com/LeoAndo/SwiftUIGithubSearch",
       icon: Icons.apple_outlined),
 ];
 
