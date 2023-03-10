@@ -57,7 +57,14 @@ final List<Info> schoolWorkList = [
   const Info(
     title: "2023年　担当科目",
     content: """
-・未定
+・Java プログラミング
+・Android Java / Kotlin プログラミング
+・Android Kotlinテキストのブラッシュアップ
+・Kotlin体験授業
+・ハイブリッドアプリ開発技法 (Monaca, Flutter, KMM)
+・Flutterテキストのブラッシュアップ
+・Kotlin Multiplatform Mobile(KMM)テキストの新規作成
+・卒業制作 (Android /iOS)
 """,
     kikan: "2023/04/01 - 2024/03/31",
     position: "メイン・サブ講師",
