@@ -57,10 +57,14 @@ final List<Info> schoolWorkList = [
   const Info(
     title: "2023年　担当科目",
     content: """
+
+・前期授業
 ・Java プログラミング
 ・Android Java / Kotlin プログラミング
 ・Android Kotlinテキストのブラッシュアップ
 ・Kotlin体験授業
+
+・後期授業 (予定)
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, KMM)
 ・Flutterテキストのブラッシュアップ
 ・Kotlin Multiplatform Mobile(KMM)テキストの新規作成
