@@ -57,7 +57,6 @@ final List<Info> schoolWorkList = [
   const Info(
     title: "2023年　担当科目",
     content: """
-
 ・前期授業
 ・Java プログラミング
 ・Android Java / Kotlin プログラミング
