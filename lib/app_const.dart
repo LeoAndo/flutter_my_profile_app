@@ -6,36 +6,51 @@ import 'repository.dart';
 final List<Repository> portphorioAndroidList = [
   const Repository(
       title: "Native Android Composeで作るGithub検索アプリ",
-      description: "Compose / Multi module / M3",
+      description: "multi module / M3 / pagination / ktor",
       url: "https://github.com/LeoAndo/AndroidGithubSearch",
       icon: Icons.android_outlined),
   const Repository(
       title: "Native Android Viewで作るGithub検索アプリ",
-      description: "View / Single module / M3",
+      description: "Single module / M3 / ktor",
       url: "https://github.com/LeoAndo/android-engineer-codecheck",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "Native Android Composeで作るUnSplashアプリ",
+      description: "Single module / M3(一部M2) / retrofit",
+      url: "https://github.com/LeoAndo/AndroidComposeUnsplashApp",
       icon: Icons.android_outlined),
 ];
 
 final List<Repository> portphorioFlutterList = [
   const Repository(
       title: "Flutterで作るGithub検索アプリ",
-      description: "Material 3導入",
+      description: "M3 / pagination / flutter_riverpod / http",
       url: "https://github.com/LeoAndo/flutter_github_search",
+      icon: Icons.flutter_dash_outlined),
+  const Repository(
+      title: "Flutterで作るUnSplashアプリ",
+      description: "hooks_riverpod, retrofit, dioなどを使用",
+      url: "https://github.com/LeoAndo/flutter_unsplash_app",
       icon: Icons.flutter_dash_outlined),
 ];
 
 final List<Repository> portphorioiOSList = [
   const Repository(
       title: "SwiftUIで作るGithub検索アプリ",
-      description: "ページング対応",
+      description: "ios16 / pagination",
       url: "https://github.com/LeoAndo/SwiftUIGithubSearch",
+      icon: Icons.apple_outlined),
+  const Repository(
+      title: "SwiftUIで作るUnsplashアプリ",
+      description: "ios15",
+      url: "https://github.com/LeoAndo/SwiftUIUnsplashApp",
       icon: Icons.apple_outlined),
 ];
 
 final List<Repository> portphorioXamarinList = [
   const Repository(
       title: ".NET MAUIで作るGithub検索アプリ",
-      description: "ページング / Dark Theme対応",
+      description: "pagination / Dark Theme",
       url: "https://github.com/LeoAndo/MauiGithubSearch",
       icon: Icons.laptop_windows_outlined),
   const Repository(
@@ -65,6 +80,7 @@ final List<Info> schoolWorkList = [
 
 ・後期授業 (予定)
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, KMM)
+・Monacaテキストのブラッシュアップ
 ・Flutterテキストのブラッシュアップ
 ・Kotlin Multiplatform Mobile(KMM)テキストの新規作成
 ・卒業制作 (Android /iOS)
@@ -82,6 +98,7 @@ final List<Info> schoolWorkList = [
 ・Android Kotlinテキストの新規作成
 ・Kotlin体験授業
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, .NET MAUI)
+・Monacaテキストのブラッシュアップ
 ・Flutterテキストの新規作成
 ・.NET MAUIテキストの新規作成
 ・卒業制作 (Android /iOS)
