@@ -19,6 +19,11 @@ final List<Repository> portphorioAndroidList = [
       description: "Single module / M3(一部M2) / retrofit",
       url: "https://github.com/LeoAndo/AndroidComposeUnsplashApp",
       icon: Icons.android_outlined),
+  const Repository(
+      title: "Android Viewで作る天気情報アプリ",
+      description: "現在位置情報取得 / OpenWeatherMap API",
+      url: "https://github.com/LeoAndo/OpenWeatherMapKotlinSample",
+      icon: Icons.android_outlined),
 ];
 
 final List<Repository> portphorioFlutterList = [
@@ -61,11 +66,11 @@ final List<Repository> portphorioXamarinList = [
 ];
 
 final List<Repository> portphorioMonacaList = [
-  // const Repository(
-  //     title: "Monaca OnsenUIを使ったテンプレート",
-  //     description: "タブありページのシンプルな構成",
-  //     url: "https://github.com/LeoAndo/OnsenUITemplate",
-  //     icon: Icons.web_outlined),
+  const Repository(
+      title: "Monacaで作る映画タイトル検索アプリ",
+      description: "OMDb APIを使用",
+      url: "https://github.com/LeoAndo/MonacaMovieTitleSearchApp",
+      icon: Icons.web_outlined),
 ];
 
 final List<Info> schoolWorkList = [
