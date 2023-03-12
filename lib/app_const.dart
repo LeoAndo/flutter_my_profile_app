@@ -5,17 +5,17 @@ import 'repository.dart';
 
 final List<Repository> portphorioAndroidList = [
   const Repository(
-      title: "Native Android Composeで作るGithub検索アプリ",
+      title: "Android Composeで作るGithub検索アプリ",
       description: "multi module / M3 / pagination / ktor",
       url: "https://github.com/LeoAndo/AndroidGithubSearch",
       icon: Icons.android_outlined),
   const Repository(
-      title: "Native Android Viewで作るGithub検索アプリ",
+      title: "Android Viewで作るGithub検索アプリ",
       description: "Single module / M3 / ktor",
       url: "https://github.com/LeoAndo/android-engineer-codecheck",
       icon: Icons.android_outlined),
   const Repository(
-      title: "Native Android Composeで作るUnSplashアプリ",
+      title: "Android Composeで作るUnSplashアプリ",
       description: "Single module / M3(一部M2) / retrofit",
       url: "https://github.com/LeoAndo/AndroidComposeUnsplashApp",
       icon: Icons.android_outlined),
@@ -147,7 +147,16 @@ final List<Info> devList = [
   ),
   const Info(
     title: "Android Auto / CarPlay技術調査",
-    content: "Android Auto / CarPlayで出来ることの技術調査",
+    content: """
+・公式ガイドラインの和訳
+・アプリストアに公開されているAndroid Auto / CarPlay対応アプリの洗い出し
+・開発環境の選定 (Flutterで作れるか？など)
+・ターゲットOSバージョンの選定
+・他社アプリの画面デザインの調査
+・アプリタイプの種類とタイプごとに使えるUIテンプレートの調査
+・注意散漫防止の観点の制約事項について
+・運転中に効果音を出せるかの調査
+""",
     kikan: "2022/4/1 - 2022/07/31",
     position: "技術リサーチ 1名体制",
     icon: Icons.apple_outlined,
