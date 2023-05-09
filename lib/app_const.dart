@@ -15,13 +15,28 @@ final List<Repository> portphorioAndroidList = [
       url: "https://github.com/LeoAndo/android-engineer-codecheck",
       icon: Icons.android_outlined),
   const Repository(
-      title: "Android Composeで作るUnSplashアプリ",
-      description: "Single module / M3(一部M2) / retrofit",
+      title: "スタンプラリー管理アプリ",
+      description: "Single module / Android View",
+      url: "https://github.com/LeoAndo/android-onsen-stamp-rally-app",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "UnSplashアプリ",
+      description: "Single module / Android View / retrofit",
       url: "https://github.com/LeoAndo/AndroidComposeUnsplashApp",
       icon: Icons.android_outlined),
   const Repository(
-      title: "Android Viewで作る天気情報アプリ",
-      description: "現在位置情報取得 / OpenWeatherMap API",
+      title: "RSS Reader(Kotlin)",
+      description: "Home Widget",
+      url: "https://github.com/LeoAndo/YahooNewsRssKotlinSample",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "RSS Reader(Java)",
+      description: "Home Widget",
+      url: "https://github.com/LeoAndo/YahooNewsRssJavaSample",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "天気情報アプリ",
+      description: "Android View / OpenWeatherMap API",
       url: "https://github.com/LeoAndo/OpenWeatherMapKotlinSample",
       icon: Icons.android_outlined),
 ];
