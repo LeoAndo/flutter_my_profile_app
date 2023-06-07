@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_catalog_app/detail_page.dart';
+import 'detail_page.dart';
 import 'info.dart';
 
 class Demo1 extends StatelessWidget {

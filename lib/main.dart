@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_catalog_app/certification_page.dart';
-import 'package:flutter_ui_catalog_app/portphorio_page.dart';
 
 import 'app_const.dart';
+import 'certification_page.dart';
 import 'demo1.dart';
+import 'portphorio_page.dart';
 
 void main() {
   runApp(const MyApp());
