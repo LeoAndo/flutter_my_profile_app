@@ -167,7 +167,7 @@ final List<Info> devList = [
 ・.NET MAUI
 ・Kotlin Multiplatform Mobile
 """,
-    kikan: "2022/08/01 - 継続中",
+    kikan: "2022/08/01 - 2023/06/30",
     position: "技術リサーチ 1名体制",
     icon: Icons.android_outlined,
   ),
