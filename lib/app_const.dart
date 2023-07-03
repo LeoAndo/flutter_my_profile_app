@@ -100,14 +100,11 @@ final List<Info> schoolWorkList = [
     content: """
 ・前期授業
 ・Java プログラミング
-・Android Java / Kotlin プログラミング
-・Android Kotlinテキストのブラッシュアップ
-・Kotlin体験授業
+・Android プログラミング
 
 ・後期授業 (予定)
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, KMM)
-・Monacaテキストのブラッシュアップ
-・Flutterテキストのブラッシュアップ
+・Android プログラミング
 ・Kotlin Multiplatform Mobile(KMM)テキストの新規作成
 ・卒業制作 (Android /iOS)
 """,
