@@ -107,6 +107,11 @@ final List<Info> schoolWorkList = [
 ・Android プログラミング
 ・Kotlin Multiplatform Mobile(KMM)テキストの新規作成
 ・卒業制作 (Android /iOS)
+
+・技術調査
+・Camera X APIを利用する形にリプレース
+・Jetpack Composeにリプレース (カメラアプリ以外)
+・Java課題チェックのレビュー/テスト自動化の調査 (Github Actions使用)
 """,
     kikan: "2023/04/01 - 2024/03/31",
     position: "メイン・サブ講師",
