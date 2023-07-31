@@ -22,7 +22,7 @@ final List<Repository> portphorioAndroidList = [
   const Repository(
       title: "ComposeへのMigration Testアプリ",
       description: "accompanist-themeadapter-material",
-      url: " https://github.com/LeoAndo/AndroidComposeMigrationDemo",
+      url: "https://github.com/LeoAndo/AndroidComposeMigrationDemo",
       icon: Icons.android_outlined),
   const Repository(
       title: "スタンプラリー管理アプリ",
