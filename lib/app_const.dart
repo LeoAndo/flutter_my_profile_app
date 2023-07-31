@@ -5,7 +5,12 @@ import 'repository.dart';
 
 final List<Repository> portphorioAndroidList = [
   const Repository(
-      title: "Android Composeで作るGithub検索アプリ",
+      title: "Composeで作るクイズアプリ",
+      description: "multi module / M3 / room",
+      url: "https://github.com/LeoAndo/AndroidQuizApp",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "Composeで作るGithub検索アプリ",
       description: "multi module / M3 / pagination / ktor",
       url: "https://github.com/LeoAndo/AndroidGithubSearch",
       icon: Icons.android_outlined),
@@ -13,6 +18,11 @@ final List<Repository> portphorioAndroidList = [
       title: "Android Viewで作るGithub検索アプリ",
       description: "Single module / M3 / ktor",
       url: "https://github.com/LeoAndo/android-engineer-codecheck",
+      icon: Icons.android_outlined),
+  const Repository(
+      title: "ComposeへのMigration Testアプリ",
+      description: "accompanist-themeadapter-material",
+      url: " https://github.com/LeoAndo/AndroidComposeMigrationDemo",
       icon: Icons.android_outlined),
   const Repository(
       title: "スタンプラリー管理アプリ",
