@@ -112,10 +112,10 @@ final List<Info> schoolWorkList = [
 ・Java プログラミング
 ・Android プログラミング
 
-・後期授業 (予定)
-・ハイブリッドアプリ開発技法 (Monaca, Flutter, KMM)
+・後期授業
+・ハイブリッドアプリ開発技法 (Monaca, Flutter, CMP)
 ・Android プログラミング
-・Kotlin Multiplatform Mobile(KMM)テキストの新規作成
+・Compose Multiplatform(CMP)テキストの新規作成
 ・卒業制作 (Android /iOS)
 
 ・技術調査
@@ -169,6 +169,31 @@ final List<Info> schoolWorkList = [
 ];
 
 final List<Info> devList = [
+  const Info(
+    title: "物流受発注管理ハンディターミナル端末向け拡張システム【保守】",
+    content: """
+対応バージョン
+x.x～
+
+開発手法
+・アジャイル
+
+アーキテクチャ
+・MVVM + Clean Architecture (シングルモジュール)
+・非同期処理はKotlin Coroutine, Flow
+
+担当業務
+・Androidアプリのデザイン調整
+・Androidアプリのデバイス（ハンディターミナル）へのインストール
+・Androidアプリの機能開発や実現可能性調査
+
+使用ライブラリ
+Material Components, Realm
+""",
+    kikan: "2023/09/01 - 未定",
+    position: "1名体制",
+    icon: Icons.android_outlined,
+  ),
   const Info(
     title: "モバイルアプリのアーキテクチャについての技術調査",
     content: """
@@ -226,7 +251,7 @@ final List<Info> devList = [
 ・アプリのリリース、Mapキーの作成
 
 使用ライブラリ
-OkHttp, Retrofit, Gson, Dagger2, Picasso, AndroidX, Groupie, PermissionDispatcher, Timber, material
+OkHttp, Retrofit, Gson, Dagger2, Picasso, Groupie, Timber, material
 """,
     kikan: "2020/1/20 - 2020/11/30",
     position: "Androidリードエンジニア 1名体制",
@@ -255,7 +280,7 @@ OkHttp, Retrofit, Gson, Dagger2, Picasso, AndroidX, Groupie, PermissionDispatche
 ・Material Design Componentsの適用(Bridge Themes)
 
 使用ライブラリ
-Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxKotlin, KvsSchema, AndroidX, Groupie, Timber
+Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxKotlin, KvsSchema, Groupie, Timber
 """,
     kikan: "2019/06/01 - 2019/12/31",
     position: "開発メンバー ２名体制",
