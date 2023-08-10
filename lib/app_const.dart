@@ -170,7 +170,7 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
-    title: "物流受発注管理ハンディターミナル端末向け拡張システム【保守】",
+    title: "Android 物流受発注管理ハンディターミナル端末向けシステム【保守】",
     content: """
 対応バージョン
 x.x～
