@@ -191,7 +191,7 @@ x.x～
 Material Components, Realm
 """,
     kikan: "2023/09/01 - 未定",
-    position: "1名体制",
+    position: "Androidリードエンジニア 1名体制",
     icon: Icons.android_outlined,
   ),
   const Info(
