@@ -173,22 +173,23 @@ final List<Info> devList = [
     title: "Android 物流受発注管理ハンディターミナル端末向けシステム【保守】",
     content: """
 対応バージョン
-x.x～
+10.0～
 
 開発手法
 ・アジャイル
 
 アーキテクチャ
-・MVVM + Clean Architecture (シングルモジュール)
-・非同期処理はKotlin Coroutine, Flow
+・MVVM + Single Module + Android View System
+Jetpack Compose未使用
 
 担当業務
-・Androidアプリのデザイン調整
-・Androidアプリのデバイス（ハンディターミナル）へのインストール
-・Androidアプリの機能開発や実現可能性調査
+・NetSuite連携
+・デザイン調整
+・デバイス（ハンディターミナル）へのインストール
+・機能開発や実現可能性調査
 
 使用ライブラリ
-Material Components, Realm
+Material Components, Realm, Dagger Hilt, Moshi, Navigation Graph
 """,
     kikan: "2023/09/01 - 未定",
     position: "Androidリードエンジニア 1名体制",
