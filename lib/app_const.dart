@@ -113,9 +113,9 @@ final List<Info> schoolWorkList = [
 ・Android プログラミング
 
 ・後期授業
-・ハイブリッドアプリ開発技法 (Monaca, Flutter, CMP)
+・ハイブリッドアプリ開発技法 (Monaca, Flutter, Compose Multiplatform)
 ・Android プログラミング
-・Compose Multiplatform(CMP)テキストの新規作成
+・Compose Multiplatformテキストの新規作成
 ・卒業制作 (Android /iOS)
 
 ・技術調査
@@ -179,17 +179,16 @@ final List<Info> devList = [
 ・アジャイル
 
 アーキテクチャ
-・MVVM + Single Module + Android View System
-Jetpack Compose未使用
+・MVVM, Single Module, Android View System
 
 担当業務
 ・NetSuite連携
 ・デザイン調整
-・デバイス（ハンディターミナル）へのインストール
+・デバイス（Keyence ハンディターミナル）へのインストール
 ・機能開発や実現可能性調査
 
 使用ライブラリ
-Material Components, Realm, Dagger Hilt, Moshi, Navigation Graph
+Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
 """,
     kikan: "2023/09/01 - 未定",
     position: "Androidリードエンジニア 1名体制",
