@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'app_const.dart';
 import 'certification_page.dart';
@@ -78,7 +79,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       MaterialPageRoute<void>(
                           builder: (_) => CertificationPage()));
                 }),
+            ElevatedButton.icon(
+                icon: const Icon(Icons.handshake_rounded),
+                label: const Text("sponsors"),
+                onPressed: () {
+                  const url = 'https://github.com/sponsors/LeoAndo';
+                  final Uri toLaunch = Uri.tryParse(url, 0, url.length) ??
+                      Uri(scheme: "https", host: "github.com", path: "LeoAndo");
+                  _launchInWebViewOrVC(toLaunch);
+                }),
           ],
         ));
+  }
+
+  Future<void> _launchInWebViewOrVC(Uri url) async {
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      print('Could not launch $url');
+    }
   }
 }
