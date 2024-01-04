@@ -115,10 +115,11 @@ final List<Info> schoolWorkList = [
 ・後期授業
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, Compose Multiplatform)
 ・Android プログラミング
-・Compose Multiplatformテキストの新規作成
 ・卒業制作 (Android /iOS)
 
-・技術調査
+・技術調査などのタスク
+・Compose Multiplatformテキストの新規作成
+・Roomライブラリ,AlarmManager,Notificationを使ったテキストの新規作成(Android Java)
 ・Camera X APIを利用する形にリプレース
 ・Jetpack Composeにリプレース (カメラアプリ以外)
 ・Java課題チェックのレビュー/テスト自動化の調査 (Github Actions使用)
