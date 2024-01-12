@@ -119,7 +119,7 @@ final List<Info> schoolWorkList = [
 
 ・技術調査などのタスク
 ・Compose Multiplatformテキストの新規作成
-・Roomライブラリ,AlarmManager,Notificationを使ったテキストの新規作成(Android Java)
+・Roomライブラリ, AlarmManager, Notification, Runtime Permission, RecyclerViewを使ったテキストの新規作成(Android Java)
 ・Camera X APIを利用する形にリプレース
 ・Jetpack Composeにリプレース (カメラアプリ以外)
 ・Java課題チェックのレビュー/テスト自動化の調査 (Github Actions使用)
