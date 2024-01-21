@@ -108,20 +108,20 @@ final List<Info> schoolWorkList = [
   const Info(
     title: "2023年　担当科目",
     content: """
-・前期授業
+◆前期授業
 ・Java プログラミング
-・Android プログラミング
+・Android プログラミング (Java)
 
-・後期授業
+◆後期授業
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, Compose Multiplatform)
-・Android プログラミング
+・Android プログラミング (Java)
 ・卒業制作 (Android /iOS)
 
-・技術調査などのタスク
+◆その他
 ・Compose Multiplatformテキストの新規作成
 ・Roomライブラリ, AlarmManager, Notification, Runtime Permission, RecyclerViewを使ったテキストの新規作成(Android Java)
-・Camera X APIを利用する形にリプレース
-・Jetpack Composeにリプレース (カメラアプリ以外)
+・課題のカメラアプリをCamera X APIを利用する形にリプレース
+・Androidプログラミングで作成する全課題アプリをJetpack Composeにリプレース (カメラアプリ以外)
 ・Java課題チェックのレビュー/テスト自動化の調査 (Github Actions使用)
 """,
     kikan: "2023/04/01 - 2024/03/31",
@@ -131,16 +131,21 @@ final List<Info> schoolWorkList = [
   const Info(
     title: "2022年　担当科目",
     content: """
+◆前期授業
 ・Java プログラミング
 ・Web基礎
-・Android Java / Kotlin プログラミング
-・Android Kotlinテキストの新規作成
-・Kotlin体験授業
+
+◆後期授業
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, .NET MAUI)
-・Monacaテキストのブラッシュアップ
-・Flutterテキストの新規作成
-・.NET MAUIテキストの新規作成
+・Android プログラミング (Java)
+・Kotlin体験授業
 ・卒業制作 (Android /iOS)
+
+◆その他
+・Android Kotlinテキストの新規作成
+・Monacaテキストのブラッシュアップ
+・Flutter, .NET MAUIテキストの新規作成
+
 """,
     kikan: "2022/04/01 - 2023/03/31",
     position: "メイン・サブ講師",
@@ -149,8 +154,11 @@ final List<Info> schoolWorkList = [
   const Info(
     title: "2021年　担当科目",
     content: """
+◆前期授業
 ・Java プログラミング
-・Android Java プログラミング
+
+◆後期授業
+・Android プログラミング (Java)
 ・ハイブリッドアプリ開発技法 (Xamarin, Monaca Unity)
 """,
     kikan: "2021/04/01 - 2022/03/31",
@@ -160,6 +168,7 @@ final List<Info> schoolWorkList = [
   const Info(
     title: "2020年　担当科目",
     content: """
+◆後期授業
 ・Android Java プログラミング
 ・卒業制作 (Android / iOS)
 """,
