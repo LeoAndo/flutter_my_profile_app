@@ -180,8 +180,33 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
-    title: "Android 物流受発注管理ハンディターミナル端末向けシステム【保守】",
+    title: "OJT支援ツールの開発【Mobile・Web】【保守】",
     content: """
+対応バージョン
+Android: x.x～
+iOS: x.x～
+
+開発手法
+・アジャイル
+
+アーキテクチャ
+・React Native, React
+
+担当業務
+・Android / iOSアプリの保守と機能追加
+・Webフロントの保守と機能追加
+
+使用ライブラリ
+xxx
+""",
+    kikan: "2023/02/01 - 未定",
+    position: "Mobile・Web リードエンジニア 1名体制",
+    icon: Icons.javascript_outlined,
+  ),
+  const Info(
+    title: "Android 物流受発注管理ハンディターミナル端末向けシステム【業務アプリ】【保守】",
+    content: """
+
 対応バージョン
 10.0～
 
@@ -200,7 +225,7 @@ final List<Info> devList = [
 使用ライブラリ
 Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
 """,
-    kikan: "2023/09/01 - 未定",
+    kikan: "2023/09/01 - 2024/01/31",
     position: "Androidリードエンジニア 1名体制",
     icon: Icons.android_outlined,
   ),
@@ -388,7 +413,7 @@ SupportLibrary (AndroidX未使用)
     icon: Icons.money,
   ),
   const Info(
-    title: "Android, iOS ソーシャルアプリ開発【サードパーティ】【自社サービス】【ガワネイティブ】",
+    title: "Android, iOS ソーシャルアプリ開発【サードパーティ】【自社サービス】",
     content: """
 対応バージョン
 2.3～
