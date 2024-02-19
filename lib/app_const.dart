@@ -183,8 +183,8 @@ final List<Info> devList = [
     title: "OJT支援ツールの開発【Mobile・Web】【保守】",
     content: """
 対応バージョン
-Android: x.x～
-iOS: x.x～
+Android: 6.0～
+iOS: 12.0～
 
 開発手法
 ・アジャイル
@@ -197,7 +197,7 @@ iOS: x.x～
 ・Webフロントの保守と機能追加
 
 使用ライブラリ
-xxx
+storybook, mobx-state-tree, 
 """,
     kikan: "2023/02/01 - 未定",
     position: "Mobile・Web リードエンジニア 1名体制",
