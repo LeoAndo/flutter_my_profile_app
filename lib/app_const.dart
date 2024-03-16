@@ -106,6 +106,20 @@ final List<Repository> portphorioMonacaList = [
 
 final List<Info> schoolWorkList = [
   const Info(
+    title: "2024年　担当科目",
+    content: """
+◆前期授業
+・Java プログラミング
+・Android プログラミング (Java)
+
+◆後期授業
+・未定
+""",
+    kikan: "2024/04/01 - 2025/03/31",
+    position: "メイン講師",
+    icon: Icons.android_outlined,
+  ),
+  const Info(
     title: "2023年　担当科目",
     content: """
 ◆前期授業
