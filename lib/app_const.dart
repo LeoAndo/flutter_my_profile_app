@@ -113,7 +113,9 @@ final List<Info> schoolWorkList = [
 ・Android プログラミング (Java)
 
 ◆後期授業
-・未定
+・ハイブリッドアプリ開発技法 (Monaca, Flutter, Compose Multiplatform)
+・Android プログラミング (Java)
+・卒業制作 (Android /iOS)
 """,
     kikan: "2024/04/01 - 2025/03/31",
     position: "メイン講師",
@@ -194,11 +196,11 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
-    title: "OJT支援ツールの開発【Mobile・Web・Backend】【保守】",
+    title: "【Mobile・Web・Backend】OJT支援ツールの開発",
     content: """
 対応バージョン
 Android: 6.0～
-iOS: 12.0～
+iOS: 12.4～
 
 開発手法
 ・アジャイル
@@ -209,14 +211,14 @@ iOS: 12.0～
 ・Backend: Java Spring Framework
 
 担当業務
-・Mobile・Web・Backend側の保守と新規機能開発
+・Mobile・Web・Backend側の機能開発や実現可能性調査
 """,
     kikan: "2023/02/01 - 未定",
-    position: "Mobile・Web リードエンジニア 1名体制",
+    position: "Mobile・Web リードエンジニア 1名体制 / Backend 2名体制",
     icon: Icons.javascript_outlined,
   ),
   const Info(
-    title: "Android 物流受発注管理ハンディターミナル端末向けシステム【業務アプリ】【保守】",
+    title: "【Android】物流受発注管理ハンディターミナル端末向けシステム",
     content: """
 
 対応バージョン
@@ -242,7 +244,7 @@ Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
     icon: Icons.android_outlined,
   ),
   const Info(
-    title: "モバイルアプリのアーキテクチャについての技術調査",
+    title: "【Mobile】モバイルアプリのアーキテクチャについての技術調査",
     content: """
 ・アーキテクチャやライブラリの選定を行い、以下の開発環境向けのテンプレートプロジェクトの作成
 ・Native Android
@@ -272,7 +274,7 @@ Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
     icon: Icons.apple_outlined,
   ),
   const Info(
-    title: "Android 理容室向け予約事前決済アプリ開発【サードパーティ】【受託】【新規開発】",
+    title: "【Android】【新規開発】理容室向け予約事前決済アプリ開発",
     content: """
 対応バージョン
 6.0～
@@ -305,7 +307,7 @@ OkHttp, Retrofit, Gson, Dagger2, Picasso, Groupie, Timber, material
     icon: Icons.android_outlined,
   ),
   const Info(
-    title: "Android マンガアプリ開発【サードパーティ】【自社サービス】【保守】",
+    title: "【Android】マンガアプリ開発",
     content: """
 対応バージョン
 5.0～
@@ -334,7 +336,7 @@ Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxK
     icon: Icons.android_outlined,
   ),
   const Info(
-    title: "Android グルメアプリ開発【サードパーティ】【自社サービス】【保守】",
+    title: "【Android】 グルメアプリ開発",
     content: """
 対応バージョン
 4.4～
@@ -362,7 +364,7 @@ AndroidX, play-services-places, google-maps-services(DirectionsAPI), retrofit2, 
     icon: Icons.android_outlined,
   ),
   const Info(
-    title: "AndroidTV RS-232Cアプリ開発【プリイン】【自社サービス】【保守】",
+    title: "【Android TV】 RS-232C プリインアプリ開発",
     content: """
 対応バージョン
 OS: 7.0、8.0 、9.0(３プロジェクトに向けてリリース)
@@ -389,7 +391,7 @@ SupportLibrary (AndroidX未使用)
     icon: Icons.tv_outlined,
   ),
   const Info(
-    title: "Android 物流ドライバ向けアプリのFW開発【サードパーティ】【自社サービス】",
+    title: "【Android】 物流ドライバ向けアプリのFW開発",
     content: """
 対応バージョン
 4.x〜
@@ -425,7 +427,7 @@ SupportLibrary (AndroidX未使用)
     icon: Icons.money,
   ),
   const Info(
-    title: "Android, iOS ソーシャルアプリ開発【サードパーティ】【自社サービス】",
+    title: "【Android・iOS】ソーシャルアプリ開発",
     content: """
 対応バージョン
 2.3～
@@ -450,7 +452,7 @@ SupportLibrary (AndroidX未使用)
     icon: Icons.apple,
   ),
   const Info(
-    title: "Android スマートフォンの組み込み開発【プリイン】",
+    title: "【Android】スマートフォンの組み込み開発",
     content: """
 対応バージョン
 4.0〜4.3
@@ -462,7 +464,7 @@ SupportLibrary (AndroidX未使用)
 ・MVC
 
 担当業務
-・framework層の不具合解析、改修、単体試験、結合試験
+・framework層の不具合解析と改修、単体、結合テストケース作成
 ・設定アプリ内のUI開発
 """,
     kikan: "2012/12/01 - 2013/10/31",
@@ -470,7 +472,7 @@ SupportLibrary (AndroidX未使用)
     icon: Icons.smartphone_outlined,
   ),
   const Info(
-    title: "Android FXアプリ開発【サードパーティ】【自社サービス】【新規開発/保守】",
+    title: "【Android】【新規開発・保守】 FXアプリ開発",
     content: """
 対応バージョン
 2.2～
@@ -483,8 +485,8 @@ SupportLibrary (AndroidX未使用)
 
 担当業務
 ・既存プロジェクトの保守対応
-・新規プロジェクトのListViewを使った照会画面の実装
-・Proguardについての調査
+・新規プロジェクトのListViewを使った照会画面の作成
+・Proguardについての技術調査
 """,
     kikan: "2011/10/01 - 2012/12/31",
     position: "開発メンバ　３名体制",
