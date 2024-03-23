@@ -194,7 +194,7 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
-    title: "OJT支援ツールの開発【Mobile・Web】【保守】",
+    title: "OJT支援ツールの開発【Mobile・Web・Backend】【保守】",
     content: """
 対応バージョン
 Android: 6.0～
@@ -204,14 +204,12 @@ iOS: 12.0～
 ・アジャイル
 
 アーキテクチャ
-・React Native, React
+・Mobile: React Native
+・Web: React
+・Backend: Java Spring Framework
 
 担当業務
-・Android / iOSアプリの保守と機能追加
-・Webフロントの保守と機能追加
-
-使用ライブラリ
-storybook, mobx-state-tree, 
+・Mobile・Web・Backend側の保守と新規機能開発
 """,
     kikan: "2023/02/01 - 未定",
     position: "Mobile・Web リードエンジニア 1名体制",
