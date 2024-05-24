@@ -205,10 +205,11 @@ iOS: 12.4～
 開発手法
 ・アジャイル
 
-アーキテクチャ
-・Mobile: React Native
+開発環境
+・Mobile: React Native, TypeScript
 ・Web: React
 ・Backend: Java Spring Framework
+・Infrastructure: Amazon Web Services
 
 担当業務
 ・Mobile・Web・Backend側の機能開発や実現可能性調査
