@@ -213,6 +213,7 @@ iOS: 12.4～
 
 担当業務
 ・Mobile・Web・Backend側の機能開発や実現可能性調査
+・React Native製アプリをFlutterで作り直し
 """,
     kikan: "2023/02/01 - 未定",
     position: "Mobile・Web リードエンジニア 1名体制 / Backend 2名体制",
