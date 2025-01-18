@@ -5,9 +5,9 @@ import 'repository.dart';
 
 final List<Repository> portphorioAndroidList = [
   const Repository(
-      title: "Composeで作るクイズアプリ",
-      description: "multi module / M3 / room",
-      url: "https://github.com/LeoAndo/AndroidQuizApp",
+      title: "ComposeへのMigration Testアプリ",
+      description: "accompanist-themeadapter-material",
+      url: "https://github.com/LeoAndo/AndroidComposeMigrationDemo",
       icon: Icons.android_outlined),
   const Repository(
       title: "Composeで作るGithub検索アプリ",
@@ -20,9 +20,9 @@ final List<Repository> portphorioAndroidList = [
       url: "https://github.com/LeoAndo/android-engineer-codecheck",
       icon: Icons.android_outlined),
   const Repository(
-      title: "ComposeへのMigration Testアプリ",
-      description: "accompanist-themeadapter-material",
-      url: "https://github.com/LeoAndo/AndroidComposeMigrationDemo",
+      title: "Composeで作るクイズアプリ",
+      description: "multi module / M3 / room",
+      url: "https://github.com/LeoAndo/AndroidQuizApp",
       icon: Icons.android_outlined),
   const Repository(
       title: "スタンプラリー管理アプリ",
@@ -116,6 +116,7 @@ final List<Info> schoolWorkList = [
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, Compose Multiplatform)
 ・Android プログラミング (Java)
 ・卒業制作 (Android /iOS)
+・Marine/Trackを使ったJavaプログラム課題の作成
 """,
     kikan: "2024/04/01 - 2025/03/31",
     position: "メイン講師",
@@ -135,10 +136,10 @@ final List<Info> schoolWorkList = [
 
 ◆その他
 ・Compose Multiplatformテキストの新規作成
-・Roomライブラリ, AlarmManager, Notification, Runtime Permission, RecyclerViewを使ったテキストの新規作成(Android Java)
+・Roomライブラリ, AlarmManager, Notification, Runtime Permission, RecyclerViewを使ったテキストの新規作成
 ・課題のカメラアプリをCamera X APIを利用する形にリプレース
-・Androidプログラミングで作成する全課題アプリをJetpack Composeにリプレース (カメラアプリ以外)
-・Java課題チェックのレビュー/テスト自動化の調査 (Github Actions使用)
+・技術調査：Androidプログラミングで作成する全課題アプリをJetpack Composeにリプレース (カメラアプリ以外)
+・技術調査：Java課題チェックのレビュー/テスト自動化の調査 (Github Actions使用)
 """,
     kikan: "2023/04/01 - 2024/03/31",
     position: "メイン・サブ講師",
