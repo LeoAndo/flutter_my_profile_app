@@ -114,6 +114,7 @@ final List<Info> schoolWorkList = [
 
 ◆後期授業
 ・ハイブリッドアプリ開発技法 (Monaca, Flutter, Compose Multiplatform)
+・セキュアコーディング技法
 ・Android プログラミング (Java)
 ・卒業制作 (Android /iOS)
 ・Marine/Trackを使ったJavaプログラム課題の作成
