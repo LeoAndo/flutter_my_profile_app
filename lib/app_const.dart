@@ -6,7 +6,7 @@ import 'repository.dart';
 final List<Repository> portphorioAndroidList = [
   const Repository(
       title: "TrustedTime APIの実験アプリ",
-      description: "accompanist-themeadapter-material",
+      description: "java / kotlin / compose",
       url: "https://github.com/LeoAndo/android-trustedtime-samples",
       icon: Icons.android_outlined),
   const Repository(
@@ -209,7 +209,7 @@ iOS: 12.4～
 """,
     kikan: "2023/02/01 - 未定",
     position: "Mobile・Web リードエンジニア 1名体制 / Backend 2名体制",
-    icon: Icons.javascript_outlined,
+    icon: Icons.flutter_dash_outlined,
   ),
   const Info(
     title: "【Android】物流受発注管理ハンディターミナル端末向けシステム",
