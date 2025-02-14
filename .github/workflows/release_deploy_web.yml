@@ -27,13 +27,14 @@ jobs:
       
       # ビルドとartifactにコンテンツをアップロード
       - name: Build
-        run: flutter build -v web --release --web-renderer canvaskit --base-href "/$(basename $GITHUB_REPOSITORY)/"
+        # run: flutter build -v web --release --web-renderer canvaskit --base-href "/$(basename $GITHUB_REPOSITORY)/"
+        run: flutter build -v web --release --base-href "/$(basename $GITHUB_REPOSITORY)/"
         shell: bash
         env:
           GITHUB_CONTEXT: ${{ github.repository }}
 
       - name: upload content artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./build/web
 
@@ -58,4 +59,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
