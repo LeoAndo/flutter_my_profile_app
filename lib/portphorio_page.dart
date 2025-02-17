@@ -76,7 +76,10 @@ class _PortphorioPageState extends State<PortphorioPage> {
           return Card(
             elevation: 4,
             child: ListTile(
-              leading: Icon(item.icon),
+              leading: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: item.icons.map((icon) => Icon(icon)).toList(),
+              ),
               title: Text(item.title),
               subtitle: Text(item.description),
               onTap: () => _launchInWebViewOrVC(toLaunch),

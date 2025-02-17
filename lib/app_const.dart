@@ -8,47 +8,47 @@ final List<Repository> portphorioAndroidList = [
       title: "TrustedTime APIの実験アプリ",
       description: "java / kotlin / compose",
       url: "https://github.com/LeoAndo/android-trustedtime-samples",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "ComposeへのMigration実験アプリ",
       description: "accompanist-themeadapter-material",
       url: "https://github.com/LeoAndo/AndroidComposeMigrationDemo",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "Composeで作るGithub検索アプリ",
       description: "multi module / M3 / pagination / ktor",
       url: "https://github.com/LeoAndo/AndroidGithubSearch",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "Composeで作るクイズアプリ",
       description: "multi module / M3 / room",
       url: "https://github.com/LeoAndo/AndroidQuizApp",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "Android Viewで作るGithub検索アプリ",
       description: "Single module / M3 / ktor",
       url: "https://github.com/LeoAndo/android-engineer-codecheck",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "スタンプラリー管理アプリ",
       description: "Single module / Android View",
       url: "https://github.com/LeoAndo/android-onsen-stamp-rally-app",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "RSS Reader(Kotlin)",
       description: "Home Widget",
       url: "https://github.com/LeoAndo/YahooNewsRssKotlinSample",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "RSS Reader(Java)",
       description: "Home Widget",
       url: "https://github.com/LeoAndo/YahooNewsRssJavaSample",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
   const Repository(
       title: "天気情報アプリ",
       description: "Android View / OpenWeatherMap API",
       url: "https://github.com/LeoAndo/OpenWeatherMapKotlinSample",
-      icon: Icons.android_outlined),
+      icons: [Icons.android_outlined]),
 ];
 
 final List<Repository> portphorioFlutterList = [
@@ -56,7 +56,7 @@ final List<Repository> portphorioFlutterList = [
       title: "Flutterで作るGithub検索アプリ",
       description: "M3 / pagination / flutter_riverpod / http",
       url: "https://github.com/LeoAndo/flutter_github_search",
-      icon: Icons.flutter_dash_outlined),
+      icons: [Icons.flutter_dash_outlined]),
 ];
 
 final List<Repository> portphorioiOSList = [
@@ -64,7 +64,7 @@ final List<Repository> portphorioiOSList = [
       title: "SwiftUIで作るGithub検索アプリ",
       description: "ios16 / pagination",
       url: "https://github.com/LeoAndo/SwiftUIGithubSearch",
-      icon: Icons.apple_outlined),
+      icons: [Icons.apple_outlined]),
 ];
 
 final List<Repository> portphorioXamarinList = [
@@ -72,26 +72,26 @@ final List<Repository> portphorioXamarinList = [
       title: ".NET MAUIで作るGithub検索アプリ",
       description: "pagination / Dark Theme",
       url: "https://github.com/LeoAndo/MauiGithubSearch",
-      icon: Icons.laptop_windows_outlined),
+      icons: [Icons.android_outlined, Icons.apple_outlined]),
   const Repository(
       title: "Xamarin シンプルなサンプルアプリ集",
       description: "アニメーションやPageViewを使ったサンプル集",
       url: "https://github.com/LeoAndo/xamarin-forms-app-templates",
-      icon: Icons.laptop_windows_outlined),
+      icons: [Icons.android_outlined, Icons.apple_outlined]),
 ];
 final List<Repository> portphorioKMMList = [
   const Repository(
       title: "KMMで作るGithub検索アプリ",
       description: "pagination / Dark Theme / ktor",
       url: "https://github.com/LeoAndo/KMMGithubSearch",
-      icon: Icons.rocket_launch),
+      icons: [Icons.android_outlined, Icons.apple_outlined]),
 ];
 final List<Repository> portphorioMonacaList = [
   const Repository(
       title: "Monacaで作る映画タイトル検索アプリ",
       description: "OMDb APIを使用",
       url: "https://github.com/LeoAndo/MonacaMovieTitleSearchApp",
-      icon: Icons.web_outlined),
+      icons: [Icons.web_outlined]),
 ];
 
 final List<Info> schoolWorkList = [
@@ -111,7 +111,11 @@ final List<Info> schoolWorkList = [
 """,
     kikan: "2024/04/01 - 2025/03/31",
     position: "メイン講師",
-    icon: Icons.android_outlined,
+    icons: [
+      Icons.android_outlined,
+      Icons.apple_outlined,
+      Icons.flutter_dash_outlined
+    ],
   ),
   const Info(
     title: "2023年　担当科目",
@@ -134,7 +138,11 @@ final List<Info> schoolWorkList = [
 """,
     kikan: "2023/04/01 - 2024/03/31",
     position: "メイン・サブ講師",
-    icon: Icons.flutter_dash_outlined,
+    icons: [
+      Icons.android_outlined,
+      Icons.apple_outlined,
+      Icons.flutter_dash_outlined
+    ],
   ),
   const Info(
     title: "2022年　担当科目",
@@ -157,7 +165,11 @@ final List<Info> schoolWorkList = [
 """,
     kikan: "2022/04/01 - 2023/03/31",
     position: "メイン・サブ講師",
-    icon: Icons.flutter_dash_outlined,
+    icons: [
+      Icons.android_outlined,
+      Icons.apple_outlined,
+      Icons.flutter_dash_outlined,
+    ],
   ),
   const Info(
     title: "2021年　担当科目",
@@ -171,7 +183,7 @@ final List<Info> schoolWorkList = [
 """,
     kikan: "2021/04/01 - 2022/03/31",
     position: "メイン・サブ講師",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined],
   ),
   const Info(
     title: "2020年　担当科目",
@@ -182,7 +194,7 @@ final List<Info> schoolWorkList = [
 """,
     kikan: "2020/10/01 - 2021/03/31",
     position: "サブ講師",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined, Icons.apple_outlined],
   ),
 ];
 
@@ -209,7 +221,7 @@ iOS: 12.4～
 """,
     kikan: "2023/02/01 - 未定",
     position: "Mobile・Web リードエンジニア 1名体制 / Backend 2名体制",
-    icon: Icons.flutter_dash_outlined,
+    icons: [Icons.flutter_dash_outlined],
   ),
   const Info(
     title: "【Android】物流受発注管理ハンディターミナル端末向けシステム",
@@ -235,21 +247,7 @@ Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
 """,
     kikan: "2023/09/01 - 2024/01/31",
     position: "Androidリードエンジニア 1名体制",
-    icon: Icons.android_outlined,
-  ),
-  const Info(
-    title: "【Mobile】モバイルアプリのアーキテクチャについての技術調査",
-    content: """
-・アーキテクチャやライブラリの選定を行い、以下の開発環境向けのテンプレートプロジェクトの作成
-・Native Android
-・Native iOS
-・Flutter
-・.NET MAUI
-・Kotlin Multiplatform Mobile
-""",
-    kikan: "2022/08/01 - 2023/06/30",
-    position: "技術リサーチ 1名体制",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined],
   ),
   const Info(
     title: "Android Auto / CarPlay技術調査",
@@ -265,7 +263,7 @@ Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
 """,
     kikan: "2022/4/1 - 2022/07/31",
     position: "技術リサーチ 1名体制",
-    icon: Icons.apple_outlined,
+    icons: [Icons.android_outlined, Icons.apple_outlined],
   ),
   const Info(
     title: "【Android】【新規開発】理容室向け予約事前決済アプリ開発",
@@ -298,7 +296,7 @@ OkHttp, Retrofit, Gson, Dagger2, Picasso, Groupie, Timber, material
 """,
     kikan: "2020/1/20 - 2020/11/30",
     position: "Androidリードエンジニア 1名体制",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined],
   ),
   const Info(
     title: "【Android】マンガアプリ開発",
@@ -327,7 +325,7 @@ Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxK
 """,
     kikan: "2019/06/01 - 2019/12/31",
     position: "開発メンバー ２名体制",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined],
   ),
   const Info(
     title: "【Android】 グルメアプリ開発",
@@ -355,7 +353,7 @@ AndroidX, play-services-places, google-maps-services(DirectionsAPI), retrofit2, 
 """,
     kikan: "2018/07/01 - 2019/05/31",
     position: "Androidリードエンジニア 3名体制",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined],
   ),
   const Info(
     title: "【Android TV】 RS-232C プリインアプリ開発",
@@ -382,7 +380,7 @@ SupportLibrary (AndroidX未使用)
 """,
     kikan: "2017/06/01 - 2018/06/30",
     position: "Androidリードエンジニア １名体制",
-    icon: Icons.tv_outlined,
+    icons: [Icons.android_outlined, Icons.tv_outlined],
   ),
   const Info(
     title: "【Android】 物流ドライバ向けアプリのFW開発",
@@ -405,7 +403,7 @@ SupportLibrary (AndroidX未使用)
 """,
     kikan: "2016/06/01 - 2017/05/31",
     position: "開発メンバ　２名体制",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined],
   ),
   const Info(
     title: "金融システム開発",
@@ -418,7 +416,7 @@ SupportLibrary (AndroidX未使用)
 """,
     kikan: "2016/01/01 - 2016/05/31",
     position: "開発メンバ　４名体制",
-    icon: Icons.money,
+    icons: [Icons.money],
   ),
   const Info(
     title: "【Android・iOS】ソーシャルアプリ開発",
@@ -443,7 +441,7 @@ SupportLibrary (AndroidX未使用)
 """,
     kikan: "2014/01/01 - 2015/12/31",
     position: "Androidリードエンジニア ２名体制",
-    icon: Icons.apple,
+    icons: [Icons.android_outlined, Icons.apple],
   ),
   const Info(
     title: "【Android】スマートフォンの組み込み開発",
@@ -463,7 +461,7 @@ SupportLibrary (AndroidX未使用)
 """,
     kikan: "2012/12/01 - 2013/10/31",
     position: "開発メンバ　５名体制",
-    icon: Icons.smartphone_outlined,
+    icons: [Icons.android_outlined, Icons.smartphone_outlined],
   ),
   const Info(
     title: "【Android】【新規開発・保守】 FXアプリ開発",
@@ -484,6 +482,6 @@ SupportLibrary (AndroidX未使用)
 """,
     kikan: "2011/10/01 - 2012/12/31",
     position: "開発メンバ　３名体制",
-    icon: Icons.android_outlined,
+    icons: [Icons.android_outlined],
   ),
 ];

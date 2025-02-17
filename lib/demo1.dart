@@ -33,7 +33,12 @@ class Demo1 extends StatelessWidget {
                                               info: infoList[index]))))
                                 },
                             child: ListTile(
-                              leading: Icon(item.icon),
+                              leading: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: item.icons
+                                    .map((icon) => Icon(icon))
+                                    .toList(),
+                              ),
                               title: Text(item.title),
                               subtitle: Text(item.kikan),
                               contentPadding: const EdgeInsets.all(8),
