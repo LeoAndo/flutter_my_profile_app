@@ -245,7 +245,7 @@ iOS: 12.4～
     icons: [Icons.flutter_dash_outlined],
   ),
   const Info(
-    title: "【Android】物流受発注管理ハンディターミナル端末向けシステム",
+    title: "物流受発注管理ハンディターミナル端末向けシステム",
     content: """
 
 対応バージョン
@@ -287,7 +287,7 @@ Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
     icons: [Icons.android_outlined, Icons.apple_outlined],
   ),
   const Info(
-    title: "【Android】【新規開発】理容室向け予約事前決済アプリ開発",
+    title: "理容室向け予約事前決済アプリ開発",
     content: """
 対応バージョン
 6.0～
@@ -300,6 +300,7 @@ Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
 ・非同期処理はKotlin Coroutine, Flow
 
 担当業務
+・新規プロジェクトの立ち上げ
 ・約30画面の実装を１人で担当
 ・ソースコードは100%Kotlin
 ・以下の機能を実装
@@ -320,7 +321,7 @@ OkHttp, Retrofit, Gson, Dagger2, Picasso, Groupie, Timber, material
     icons: [Icons.android_outlined],
   ),
   const Info(
-    title: "【Android】マンガアプリ開発",
+    title: "マンガアプリ開発",
     content: """
 対応バージョン
 5.0～
@@ -349,7 +350,7 @@ Kotlin Coroutine, OkHttp, Retrofit, Gson, Dagger2, Glide, RxJava, RxAndroid, RxK
     icons: [Icons.android_outlined],
   ),
   const Info(
-    title: "【Android】 グルメアプリ開発",
+    title: "グルメアプリ開発",
     content: """
 対応バージョン
 4.4～
@@ -404,7 +405,7 @@ SupportLibrary (AndroidX未使用)
     icons: [Icons.android_outlined, Icons.tv_outlined],
   ),
   const Info(
-    title: "【Android】 物流ドライバ向けアプリのFW開発",
+    title: "物流ドライバ向けアプリのFW開発",
     content: """
 対応バージョン
 4.x〜
@@ -440,7 +441,7 @@ SupportLibrary (AndroidX未使用)
     icons: [Icons.money],
   ),
   const Info(
-    title: "【Android・iOS】ソーシャルアプリ開発",
+    title: "ソーシャルアプリ開発",
     content: """
 対応バージョン
 2.3～
@@ -465,7 +466,7 @@ SupportLibrary (AndroidX未使用)
     icons: [Icons.android_outlined, Icons.apple],
   ),
   const Info(
-    title: "【Android】スマートフォンの組み込み開発",
+    title: "スマートフォンの組み込み開発",
     content: """
 対応バージョン
 4.0〜4.3
@@ -485,7 +486,7 @@ SupportLibrary (AndroidX未使用)
     icons: [Icons.android_outlined, Icons.smartphone_outlined],
   ),
   const Info(
-    title: "【Android】【新規開発・保守】 FXアプリ開発",
+    title: "FXアプリ開発",
     content: """
 対応バージョン
 2.2～
@@ -498,7 +499,7 @@ SupportLibrary (AndroidX未使用)
 
 担当業務
 ・既存プロジェクトの保守対応
-・新規プロジェクトのListViewを使った照会画面の作成
+・新規プロジェクトの立ち上げ
 ・Proguardについての技術調査
 """,
     kikan: "2011/10/01 - 2012/12/31",
