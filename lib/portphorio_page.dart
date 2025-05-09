@@ -44,7 +44,7 @@ class _PortphorioPageState extends State<PortphorioPage> {
             portphorioFlutterList +
             portphorioiOSList +
             portphorioXamarinList +
-            portphorioKMMList +
+            portphorioKMPList +
             portphorioMonacaList),
       ),
       floatingActionButton: FloatingActionButton(

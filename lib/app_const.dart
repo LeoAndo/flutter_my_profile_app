@@ -79,10 +79,15 @@ final List<Repository> portphorioXamarinList = [
       url: "https://github.com/LeoAndo/xamarin-forms-app-templates",
       icons: [Icons.android_outlined, Icons.apple_outlined]),
 ];
-final List<Repository> portphorioKMMList = [
+final List<Repository> portphorioKMPList = [
   const Repository(
-      title: "KMMで作るGithub検索アプリ",
-      description: "pagination / Dark Theme / ktor",
+      title: "KMPで作るGithub検索アプリ - part1",
+      description: "UIとロジックを共通化",
+      url: "https://github.com/LeoAndo/KMP-App-Template",
+      icons: [Icons.android_outlined, Icons.apple_outlined]),
+  const Repository(
+      title: "KMPで作るGithub検索アプリ - part2",
+      description: "ロジックのみを共通化",
       url: "https://github.com/LeoAndo/KMMGithubSearch",
       icons: [Icons.android_outlined, Icons.apple_outlined]),
 ];
