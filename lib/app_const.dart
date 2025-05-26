@@ -230,13 +230,13 @@ final List<Info> devList = [
     content: """
 対応バージョン
 Android: 6.0～
-iOS: 12.4～
+iOS: 13.0～
 
 開発手法
 ・アジャイル
 
 開発環境
-・Mobile: React Native, TypeScript
+・Mobile: Flutter
 ・Web: React
 ・Backend: Java Spring Framework
 ・Infrastructure: Amazon Web Services
@@ -244,6 +244,7 @@ iOS: 12.4～
 担当業務
 ・Mobile・Web・Backend側の機能開発や実現可能性調査
 ・React Native製アプリをFlutterで作り直し
+・保守作業
 """,
     kikan: "2023/02/01 - 未定",
     position: "Mobile・Web リードエンジニア 1名体制 / Backend 2名体制",
@@ -252,7 +253,6 @@ iOS: 12.4～
   const Info(
     title: "物流受発注管理ハンディターミナル端末向けシステム",
     content: """
-
 対応バージョン
 10.0～
 
@@ -271,7 +271,7 @@ iOS: 12.4～
 使用ライブラリ
 Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
 """,
-    kikan: "2023/09/01 - 2024/01/31",
+    kikan: "2022/09/01 - 2023/01/31",
     position: "Androidリードエンジニア 1名体制",
     icons: [Icons.android_outlined],
   ),
@@ -321,7 +321,7 @@ Material Components, Room, Dagger Hilt, Moshi, Navigation Graph, scribejava
 使用ライブラリ
 OkHttp, Retrofit, Gson, Dagger2, Picasso, Groupie, Timber, material
 """,
-    kikan: "2020/1/20 - 2020/11/30",
+    kikan: "2020/1/20 - 2021/11/30",
     position: "Androidリードエンジニア 1名体制",
     icons: [Icons.android_outlined],
   ),
