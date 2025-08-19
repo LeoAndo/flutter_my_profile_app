@@ -226,6 +226,29 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
+    title: "【Mobile】スタートアッププロジェクト",
+    content: """
+対応バージョン
+Android: 未定
+iOS: 未定
+
+開発手法
+・アジャイル
+
+開発環境
+・Mobile: Flutter
+・Web: 未定
+・Backend: 未定
+・Infrastructure: 未定
+
+担当業務
+・スタートアッププロジェクトの新機能開発や実現可能性調査
+""",
+    kikan: "2025/09/01 - 未定",
+    position: "Mobile 2名体制",
+    icons: [Icons.flutter_dash_outlined],
+  ),
+  const Info(
     title: "【Mobile・Web・Backend】OJT支援ツールの開発",
     content: """
 対応バージョン
