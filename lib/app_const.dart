@@ -226,7 +226,7 @@ final List<Info> schoolWorkList = [
 
 final List<Info> devList = [
   const Info(
-    title: "【Mobile】スタートアッププロジェクト",
+    title: "【Mobile】[継続中]スタートアッププロジェクト",
     content: """
 対応バージョン
 Android: 未定
@@ -249,7 +249,7 @@ iOS: 未定
     icons: [Icons.flutter_dash_outlined],
   ),
   const Info(
-    title: "【Mobile・Web・Backend】OJT支援ツールの開発",
+    title: "【Mobile・Web・Backend】[継続中]OJT支援ツールの開発",
     content: """
 対応バージョン
 Android: 6.0～
